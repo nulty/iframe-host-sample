@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iFrame</title>
+</head>
+<body style="background-color: lightblue;">
+  <script>
+    console.log("I'm in test-iframe")
+
+    // Send message to the parent window
+    window.top.postMessage("Message sent from the frame", "http://mansion-app:4000")
+  </script>
+    <p>Iframe body</p>
+</body>
+</html>
+
