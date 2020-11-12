@@ -18,7 +18,7 @@ Test and experiment with the features available for communication between a host
 `overmind start`
 
 
-**Without process manager**
+**Without process manager** \
 In two different terminals run:
 
     node iframe.js
